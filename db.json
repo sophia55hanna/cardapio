@@ -14,13 +14,31 @@
               "id": 1,
               "titulo": "Café com leite",
               "descricao": "Café passado na hora com leite quentinho.",
-              "foto": "/images/cafe-com-leite.jpg"
+              "foto": "/images/cafe-com-leite.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 120
             },
             {
               "id": 2,
               "titulo": "Pão de queijo",
               "descricao": "Crocante por fora e macio por dentro.",
-              "foto": "/images/pao-de-queijo.jpg"
+              "foto": "/images/pao-de-queijo.jpg",
+              "contem": [
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 230
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 101,
+              "titulo": "Café vegetal com tapioca",
+              "descricao": "Café passado com bebida vegetal de arroz e tapioca com coco.",
+              "contem": [],
+              "calorias": 250
             }
           ]
         },
@@ -34,19 +52,49 @@
               "id": 3,
               "titulo": "Strogonoff",
               "descricao": "Cremoso, servido com batata palha.",
-              "foto": "/images/strogonoff.jpg"
+              "foto": "/images/strogonoff.jpg",
+              "contem": [
+                "lactose",
+                "carne"
+              ],
+              "calorias": 380
             },
             {
               "id": 4,
               "titulo": "Arroz e feijão",
               "descricao": "Arroz soltinho, feijão caseiro e farofa.",
-              "foto": "/images/arroz-feijao-farofa.jpg"
+              "foto": "/images/arroz-feijao-farofa.jpg",
+              "contem": [],
+              "calorias": 350
             },
             {
               "id": 5,
               "titulo": "Pudim de leite",
               "descricao": "Sobremesa com calda de caramelo.",
-              "foto": "/images/pudim.jpg"
+              "foto": "/images/pudim.jpg",
+              "contem": [
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 300
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 102,
+              "titulo": "Strogonoff sem lactose",
+              "descricao": "Frango com creme de leite de coco, servido com arroz e batata palha.",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 380
+            },
+            {
+              "id": 103,
+              "titulo": "Pudim de leite de coco",
+              "descricao": "Feito com leite de coco e amido de milho, sem ovos.",
+              "contem": [],
+              "calorias": 260
             }
           ]
         },
@@ -60,13 +108,30 @@
               "id": 6,
               "titulo": "Bolo de cenoura",
               "descricao": "Fofinho, com cobertura de chocolate.",
-              "foto": "/images/bolo-de-cenoura.jpg"
+              "foto": "/images/bolo-de-cenoura.jpg",
+              "contem": [
+                "gluten",
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 320
             },
             {
               "id": 7,
               "titulo": "Suco de maracujá",
               "descricao": "Feito com a fruta, servido bem gelado.",
-              "foto": "/images/suco-de-maracuja.jpg"
+              "foto": "/images/suco-de-maracuja.jpg",
+              "contem": [],
+              "calorias": 110
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 104,
+              "titulo": "Bolo de cenoura sem glúten",
+              "descricao": "Com farinha de arroz, óleo e cobertura de cacau, sem ovos.",
+              "contem": [],
+              "calorias": 270
             }
           ]
         },
@@ -80,13 +145,32 @@
               "id": 8,
               "titulo": "Sopa de legumes",
               "descricao": "Caldo leve com legumes da estação.",
-              "foto": "/images/sopa-de-legumes.jpg"
+              "foto": "/images/sopa-de-legumes.jpg",
+              "contem": [],
+              "calorias": 150
             },
             {
               "id": 9,
               "titulo": "Misto quente",
               "descricao": "Pão na chapa com presunto e queijo.",
-              "foto": "/images/misto-quente.jpg"
+              "foto": "/images/misto-quente.jpg",
+              "contem": [
+                "gluten",
+                "lactose",
+                "carne"
+              ],
+              "calorias": 330
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 105,
+              "titulo": "Tapioca de frango",
+              "descricao": "Tapioca recheada com frango desfiado e tomate.",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 300
             }
           ]
         }
@@ -106,19 +190,37 @@
               "id": 10,
               "titulo": "Suco de goiaba",
               "descricao": "Feito com a fruta, docinho e bem gelado.",
-              "foto": "/images/suco-de-goiaba.jpg"
+              "foto": "/images/suco-de-goiaba.jpg",
+              "contem": [],
+              "calorias": 120
             },
             {
               "id": 11,
               "titulo": "Pão na chapa",
               "descricao": "Pão francês tostado com manteiga.",
-              "foto": "/images/pao-na-chapa.jpg"
+              "foto": "/images/pao-na-chapa.jpg",
+              "contem": [
+                "gluten",
+                "lactose"
+              ],
+              "calorias": 250
             },
             {
               "id": 12,
               "titulo": "Mamão",
               "descricao": "Fruta fresca, cortada na hora.",
-              "foto": "/images/mamao.jpg"
+              "foto": "/images/mamao.jpg",
+              "contem": [],
+              "calorias": 70
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 106,
+              "titulo": "Pão sem glúten na chapa",
+              "descricao": "Pão de farinha de arroz tostado com azeite.",
+              "contem": [],
+              "calorias": 220
             }
           ]
         },
@@ -132,13 +234,30 @@
               "id": 13,
               "titulo": "Frango assado",
               "descricao": "Coxa assada com legumes e arroz branco.",
-              "foto": "/images/frango-assado.jpg"
+              "foto": "/images/frango-assado.jpg",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 450
             },
             {
               "id": 14,
               "titulo": "Mousse de maracujá",
               "descricao": "Geladinha, doce e azedinha na medida.",
-              "foto": "/images/mousse-de-maracuja.jpg"
+              "foto": "/images/mousse-de-maracuja.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 280
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 107,
+              "titulo": "Mousse de maracujá com coco",
+              "descricao": "Feita com leite de coco, doce e azedinha na medida.",
+              "contem": [],
+              "calorias": 240
             }
           ]
         },
@@ -152,13 +271,28 @@
               "id": 15,
               "titulo": "Pipoca",
               "descricao": "Estourada na hora, com sal na medida.",
-              "foto": "/images/pipoca.jpg"
+              "foto": "/images/pipoca.jpg",
+              "contem": [],
+              "calorias": 180
             },
             {
               "id": 16,
               "titulo": "Chocolate quente",
               "descricao": "Cremoso, para esquentar a tarde.",
-              "foto": "/images/chocolate-quente.jpg"
+              "foto": "/images/chocolate-quente.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 220
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 108,
+              "titulo": "Chocolate quente vegetal",
+              "descricao": "Cacau com bebida vegetal de arroz, bem cremoso.",
+              "contem": [],
+              "calorias": 190
             }
           ]
         },
@@ -172,7 +306,23 @@
               "id": 17,
               "titulo": "Macarrão à bolonhesa",
               "descricao": "Espaguete com molho de tomate e carne moída.",
-              "foto": "/images/macarrao-bolonhesa.jpg"
+              "foto": "/images/macarrao-bolonhesa.jpg",
+              "contem": [
+                "gluten",
+                "carne"
+              ],
+              "calorias": 480
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 109,
+              "titulo": "Macarrão de arroz à bolonhesa",
+              "descricao": "Massa de arroz com molho de tomate e carne moída.",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 440
             }
           ]
         }
@@ -192,13 +342,30 @@
               "id": 18,
               "titulo": "Café com leite",
               "descricao": "Café passado na hora com leite quentinho.",
-              "foto": "/images/cafe-com-leite.jpg"
+              "foto": "/images/cafe-com-leite.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 120
             },
             {
               "id": 19,
               "titulo": "Cuscuz",
               "descricao": "Cuscuz nordestino com manteiga.",
-              "foto": "/images/cuscuz.jpg"
+              "foto": "/images/cuscuz.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 230
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 110,
+              "titulo": "Cuscuz com azeite",
+              "descricao": "Cuscuz nordestino com azeite, acompanhado de café passado com bebida vegetal de arroz.",
+              "contem": [],
+              "calorias": 260
             }
           ]
         },
@@ -212,19 +379,45 @@
               "id": 20,
               "titulo": "Feijoada",
               "descricao": "Feijão preto com carnes, servido com arroz e couve.",
-              "foto": "/images/feijoada.jpg"
+              "foto": "/images/feijoada.jpg",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 550
             },
             {
               "id": 21,
               "titulo": "Farofa",
               "descricao": "Farinha de mandioca tostada na manteiga.",
-              "foto": "/images/farofa.jpg"
+              "foto": "/images/farofa.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 200
             },
             {
               "id": 22,
               "titulo": "Salada de frutas",
               "descricao": "Frutas da estação picadinhas.",
-              "foto": "/images/salada-de-frutas.jpg"
+              "foto": "/images/salada-de-frutas.jpg",
+              "contem": [],
+              "calorias": 120
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 111,
+              "titulo": "Feijoada vegetariana",
+              "descricao": "Feijão preto com legumes defumados, arroz e couve.",
+              "contem": [],
+              "calorias": 420
+            },
+            {
+              "id": 112,
+              "titulo": "Farofa de azeite",
+              "descricao": "Farinha de mandioca tostada no azeite.",
+              "contem": [],
+              "calorias": 190
             }
           ]
         },
@@ -238,13 +431,30 @@
               "id": 23,
               "titulo": "Bolo de fubá",
               "descricao": "Bolo caseiro de milho, macio e cheiroso.",
-              "foto": "/images/bolo-de-fuba.jpg"
+              "foto": "/images/bolo-de-fuba.jpg",
+              "contem": [
+                "gluten",
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 290
             },
             {
               "id": 24,
               "titulo": "Suco de graviola",
               "descricao": "Cremoso e refrescante, servido gelado.",
-              "foto": "/images/suco-de-graviola.jpg"
+              "foto": "/images/suco-de-graviola.jpg",
+              "contem": [],
+              "calorias": 130
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 113,
+              "titulo": "Bolo de fubá sem glúten",
+              "descricao": "Feito só com fubá, óleo e leite de coco, sem ovos.",
+              "contem": [],
+              "calorias": 260
             }
           ]
         },
@@ -258,7 +468,20 @@
               "id": 25,
               "titulo": "Caldo verde",
               "descricao": "Creme de batata com couve e calabresa.",
-              "foto": "/images/caldo-verde.jpg"
+              "foto": "/images/caldo-verde.jpg",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 260
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 114,
+              "titulo": "Caldo verde vegetariano",
+              "descricao": "Creme de batata com couve, sem calabresa.",
+              "contem": [],
+              "calorias": 200
             }
           ]
         }
@@ -278,13 +501,32 @@
               "id": 26,
               "titulo": "Chocolate quente",
               "descricao": "Cremoso, para começar bem o dia.",
-              "foto": "/images/chocolate-quente.jpg"
+              "foto": "/images/chocolate-quente.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 220
             },
             {
               "id": 27,
               "titulo": "Misto quente",
               "descricao": "Pão na chapa com presunto e queijo.",
-              "foto": "/images/misto-quente.jpg"
+              "foto": "/images/misto-quente.jpg",
+              "contem": [
+                "gluten",
+                "lactose",
+                "carne"
+              ],
+              "calorias": 330
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 115,
+              "titulo": "Tapioca com banana",
+              "descricao": "Tapioca com banana e canela, com chocolate quente vegetal.",
+              "contem": [],
+              "calorias": 320
             }
           ]
         },
@@ -298,13 +540,42 @@
               "id": 28,
               "titulo": "Lasanha",
               "descricao": "Camadas de massa, molho, carne e queijo gratinado.",
-              "foto": "/images/lasanha.jpg"
+              "foto": "/images/lasanha.jpg",
+              "contem": [
+                "gluten",
+                "lactose",
+                "ovo",
+                "carne"
+              ],
+              "calorias": 520
             },
             {
               "id": 29,
               "titulo": "Arroz doce",
               "descricao": "Com leite condensado e canela por cima.",
-              "foto": "/images/arroz-doce.jpg"
+              "foto": "/images/arroz-doce.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 310
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 116,
+              "titulo": "Lasanha de berinjela",
+              "descricao": "Camadas de berinjela, molho de tomate e carne moída, sem massa e sem queijo.",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 380
+            },
+            {
+              "id": 117,
+              "titulo": "Arroz doce com coco",
+              "descricao": "Feito com leite de coco e canela por cima.",
+              "contem": [],
+              "calorias": 280
             }
           ]
         },
@@ -318,13 +589,29 @@
               "id": 30,
               "titulo": "Pão de queijo",
               "descricao": "Crocante por fora e macio por dentro.",
-              "foto": "/images/pao-de-queijo.jpg"
+              "foto": "/images/pao-de-queijo.jpg",
+              "contem": [
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 230
             },
             {
               "id": 31,
               "titulo": "Suco de maracujá",
               "descricao": "Feito com a fruta, servido bem gelado.",
-              "foto": "/images/suco-de-maracuja.jpg"
+              "foto": "/images/suco-de-maracuja.jpg",
+              "contem": [],
+              "calorias": 110
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 118,
+              "titulo": "Biscoito de polvilho",
+              "descricao": "Sequinho e crocante, sem glúten, leite ou ovos.",
+              "contem": [],
+              "calorias": 200
             }
           ]
         },
@@ -338,13 +625,29 @@
               "id": 32,
               "titulo": "Omelete",
               "descricao": "Ovos batidos com queijo e ervas.",
-              "foto": "/images/omelete.jpg"
+              "foto": "/images/omelete.jpg",
+              "contem": [
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 240
             },
             {
               "id": 33,
               "titulo": "Sopa de legumes",
               "descricao": "Caldo leve com legumes da estação.",
-              "foto": "/images/sopa-de-legumes.jpg"
+              "foto": "/images/sopa-de-legumes.jpg",
+              "contem": [],
+              "calorias": 150
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 119,
+              "titulo": "Grão-de-bico refogado",
+              "descricao": "Grão-de-bico com tomate, cebola e ervas.",
+              "contem": [],
+              "calorias": 300
             }
           ]
         }
@@ -364,19 +667,39 @@
               "id": 34,
               "titulo": "Café com leite",
               "descricao": "Café passado na hora com leite quentinho.",
-              "foto": "/images/cafe-com-leite.jpg"
+              "foto": "/images/cafe-com-leite.jpg",
+              "contem": [
+                "lactose"
+              ],
+              "calorias": 120
             },
             {
               "id": 35,
               "titulo": "Pão na chapa",
               "descricao": "Pão francês tostado com manteiga.",
-              "foto": "/images/pao-na-chapa.jpg"
+              "foto": "/images/pao-na-chapa.jpg",
+              "contem": [
+                "gluten",
+                "lactose"
+              ],
+              "calorias": 250
             },
             {
               "id": 36,
               "titulo": "Salada de frutas",
               "descricao": "Frutas da estação picadinhas.",
-              "foto": "/images/salada-de-frutas.jpg"
+              "foto": "/images/salada-de-frutas.jpg",
+              "contem": [],
+              "calorias": 120
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 120,
+              "titulo": "Pão sem glúten com café vegetal",
+              "descricao": "Pão de farinha de arroz tostado com azeite e café passado com bebida vegetal de arroz.",
+              "contem": [],
+              "calorias": 260
             }
           ]
         },
@@ -390,19 +713,61 @@
               "id": 37,
               "titulo": "Feijão tropeiro",
               "descricao": "Feijão com farinha, ovo, couve e linguiça.",
-              "foto": "/images/feijao-tropeiro.jpg"
+              "foto": "/images/feijao-tropeiro.jpg",
+              "contem": [
+                "ovo",
+                "carne"
+              ],
+              "calorias": 480
             },
             {
               "id": 38,
               "titulo": "Escondidinho",
               "descricao": "Purê de mandioca gratinado com carne seca.",
-              "foto": "/images/escondidinho.jpg"
+              "foto": "/images/escondidinho.jpg",
+              "contem": [
+                "lactose",
+                "carne"
+              ],
+              "calorias": 460
             },
             {
               "id": 39,
               "titulo": "Pudim de leite",
               "descricao": "Sobremesa com calda de caramelo.",
-              "foto": "/images/pudim.jpg"
+              "foto": "/images/pudim.jpg",
+              "contem": [
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 300
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 121,
+              "titulo": "Feijão tropeiro sem ovo",
+              "descricao": "Feijão com farinha de mandioca, couve e linguiça.",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 430
+            },
+            {
+              "id": 122,
+              "titulo": "Escondidinho sem lactose",
+              "descricao": "Purê de mandioca com azeite e carne seca, sem queijo.",
+              "contem": [
+                "carne"
+              ],
+              "calorias": 410
+            },
+            {
+              "id": 123,
+              "titulo": "Pudim de leite de coco",
+              "descricao": "Feito com leite de coco e amido de milho, sem ovos.",
+              "contem": [],
+              "calorias": 260
             }
           ]
         },
@@ -416,13 +781,30 @@
               "id": 40,
               "titulo": "Bolo de cenoura",
               "descricao": "Fofinho, com cobertura de chocolate.",
-              "foto": "/images/bolo-de-cenoura.jpg"
+              "foto": "/images/bolo-de-cenoura.jpg",
+              "contem": [
+                "gluten",
+                "lactose",
+                "ovo"
+              ],
+              "calorias": 320
             },
             {
               "id": 41,
               "titulo": "Pipoca",
               "descricao": "Estourada na hora, com sal na medida.",
-              "foto": "/images/pipoca.jpg"
+              "foto": "/images/pipoca.jpg",
+              "contem": [],
+              "calorias": 180
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 124,
+              "titulo": "Bolo de cenoura sem glúten",
+              "descricao": "Com farinha de arroz, óleo e cobertura de cacau, sem ovos.",
+              "contem": [],
+              "calorias": 270
             }
           ]
         },
@@ -436,7 +818,20 @@
               "id": 42,
               "titulo": "Mexido mineiro",
               "descricao": "Arroz, feijão, ovo e couve, tudo misturado.",
-              "foto": "/images/mexido-mineiro.jpg"
+              "foto": "/images/mexido-mineiro.jpg",
+              "contem": [
+                "ovo"
+              ],
+              "calorias": 420
+            }
+          ],
+          "alternativas": [
+            {
+              "id": 125,
+              "titulo": "Mexido mineiro sem ovo",
+              "descricao": "Arroz, feijão, couve e cenoura, tudo misturado.",
+              "contem": [],
+              "calorias": 380
             }
           ]
         }
