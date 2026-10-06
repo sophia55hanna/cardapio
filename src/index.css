@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Paleta base:
+  Marrom-escuro #654321 · Acaju #4C2F27 · Carmim #712F26 · Rútilo #6D351A
+*/
+
+/* Cores do tema claro */
+:root {
+  --fundo: #faf5ef;
+  --superficie: #ffffff;
+  --borda: #eadfd3;
+  --texto: #4c2f27;          /* Acaju */
+  --suave: #654321;          /* Marrom-escuro */
+  --destaque: #712f26;       /* Carmim */
+  --destaque-suave: #f3e5df;
+  --destaque-texto: #ffffff;
+  --secundaria: #6d351a;     /* Rútilo */
+}
+
+/* Cores do tema escuro (versões mais claras da paleta, para dar contraste) */
+.dark {
+  --fundo: #1a1210;
+  --superficie: #261b17;
+  --borda: #3d2b24;
+  --texto: #f3e7df;
+  --suave: #c4a88c;
+  --destaque: #d98a7a;
+  --destaque-suave: #3b211c;
+  --destaque-texto: #1a1210;
+  --secundaria: #d9a07a;
+}
+
+@theme inline {
+  --font-sans: "Nunito Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", ui-sans-serif, system-ui, sans-serif;
+
+  --color-fundo: var(--fundo);
+  --color-superficie: var(--superficie);
+  --color-borda: var(--borda);
+  --color-texto: var(--texto);
+  --color-suave: var(--suave);
+  --color-destaque: var(--destaque);
+  --color-destaque-suave: var(--destaque-suave);
+  --color-destaque-texto: var(--destaque-texto);
+  --color-secundaria: var(--secundaria);
+}
+
+body {
+  @apply bg-fundo text-texto font-sans antialiased transition-colors;
+}

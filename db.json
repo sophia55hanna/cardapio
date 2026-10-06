@@ -1,0 +1,446 @@
+{
+  "dias": [
+    {
+      "id": "segunda",
+      "nome": "Segunda",
+      "refeicoes": [
+        {
+          "id": "cafe-da-manha",
+          "nome": "Café da manhã",
+          "horario": "7h00",
+          "icone": "cafe",
+          "itens": [
+            {
+              "id": 1,
+              "titulo": "Café com leite",
+              "descricao": "Café passado na hora com leite quentinho.",
+              "foto": "/images/cafe-com-leite.jpg"
+            },
+            {
+              "id": 2,
+              "titulo": "Pão de queijo",
+              "descricao": "Crocante por fora e macio por dentro.",
+              "foto": "/images/pao-de-queijo.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almoco",
+          "nome": "Almoço",
+          "horario": "12h30",
+          "icone": "almoco",
+          "itens": [
+            {
+              "id": 3,
+              "titulo": "Strogonoff",
+              "descricao": "Cremoso, servido com batata palha.",
+              "foto": "/images/strogonoff.jpg"
+            },
+            {
+              "id": 4,
+              "titulo": "Arroz e feijão",
+              "descricao": "Arroz soltinho, feijão caseiro e farofa.",
+              "foto": "/images/arroz-feijao-farofa.jpg"
+            },
+            {
+              "id": 5,
+              "titulo": "Pudim de leite",
+              "descricao": "Sobremesa com calda de caramelo.",
+              "foto": "/images/pudim.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe-da-tarde",
+          "nome": "Café da tarde",
+          "horario": "15h30",
+          "icone": "lanche",
+          "itens": [
+            {
+              "id": 6,
+              "titulo": "Bolo de cenoura",
+              "descricao": "Fofinho, com cobertura de chocolate.",
+              "foto": "/images/bolo-de-cenoura.jpg"
+            },
+            {
+              "id": 7,
+              "titulo": "Suco de maracujá",
+              "descricao": "Feito com a fruta, servido bem gelado.",
+              "foto": "/images/suco-de-maracuja.jpg"
+            }
+          ]
+        },
+        {
+          "id": "jantar",
+          "nome": "Jantar",
+          "horario": "19h00",
+          "icone": "jantar",
+          "itens": [
+            {
+              "id": 8,
+              "titulo": "Sopa de legumes",
+              "descricao": "Caldo leve com legumes da estação.",
+              "foto": "/images/sopa-de-legumes.jpg"
+            },
+            {
+              "id": 9,
+              "titulo": "Misto quente",
+              "descricao": "Pão na chapa com presunto e queijo.",
+              "foto": "/images/misto-quente.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "terca",
+      "nome": "Terça",
+      "refeicoes": [
+        {
+          "id": "cafe-da-manha",
+          "nome": "Café da manhã",
+          "horario": "7h00",
+          "icone": "cafe",
+          "itens": [
+            {
+              "id": 10,
+              "titulo": "Suco de goiaba",
+              "descricao": "Feito com a fruta, docinho e bem gelado.",
+              "foto": "/images/suco-de-goiaba.jpg"
+            },
+            {
+              "id": 11,
+              "titulo": "Pão na chapa",
+              "descricao": "Pão francês tostado com manteiga.",
+              "foto": "/images/pao-na-chapa.jpg"
+            },
+            {
+              "id": 12,
+              "titulo": "Mamão",
+              "descricao": "Fruta fresca, cortada na hora.",
+              "foto": "/images/mamao.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almoco",
+          "nome": "Almoço",
+          "horario": "12h30",
+          "icone": "almoco",
+          "itens": [
+            {
+              "id": 13,
+              "titulo": "Frango assado",
+              "descricao": "Coxa assada com legumes e arroz branco.",
+              "foto": "/images/frango-assado.jpg"
+            },
+            {
+              "id": 14,
+              "titulo": "Mousse de maracujá",
+              "descricao": "Geladinha, doce e azedinha na medida.",
+              "foto": "/images/mousse-de-maracuja.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe-da-tarde",
+          "nome": "Café da tarde",
+          "horario": "15h30",
+          "icone": "lanche",
+          "itens": [
+            {
+              "id": 15,
+              "titulo": "Pipoca",
+              "descricao": "Estourada na hora, com sal na medida.",
+              "foto": "/images/pipoca.jpg"
+            },
+            {
+              "id": 16,
+              "titulo": "Chocolate quente",
+              "descricao": "Cremoso, para esquentar a tarde.",
+              "foto": "/images/chocolate-quente.jpg"
+            }
+          ]
+        },
+        {
+          "id": "jantar",
+          "nome": "Jantar",
+          "horario": "19h00",
+          "icone": "jantar",
+          "itens": [
+            {
+              "id": 17,
+              "titulo": "Macarrão à bolonhesa",
+              "descricao": "Espaguete com molho de tomate e carne moída.",
+              "foto": "/images/macarrao-bolonhesa.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quarta",
+      "nome": "Quarta",
+      "refeicoes": [
+        {
+          "id": "cafe-da-manha",
+          "nome": "Café da manhã",
+          "horario": "7h00",
+          "icone": "cafe",
+          "itens": [
+            {
+              "id": 18,
+              "titulo": "Café com leite",
+              "descricao": "Café passado na hora com leite quentinho.",
+              "foto": "/images/cafe-com-leite.jpg"
+            },
+            {
+              "id": 19,
+              "titulo": "Cuscuz",
+              "descricao": "Cuscuz nordestino com manteiga.",
+              "foto": "/images/cuscuz.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almoco",
+          "nome": "Almoço",
+          "horario": "12h30",
+          "icone": "almoco",
+          "itens": [
+            {
+              "id": 20,
+              "titulo": "Feijoada",
+              "descricao": "Feijão preto com carnes, servido com arroz e couve.",
+              "foto": "/images/feijoada.jpg"
+            },
+            {
+              "id": 21,
+              "titulo": "Farofa",
+              "descricao": "Farinha de mandioca tostada na manteiga.",
+              "foto": "/images/farofa.jpg"
+            },
+            {
+              "id": 22,
+              "titulo": "Salada de frutas",
+              "descricao": "Frutas da estação picadinhas.",
+              "foto": "/images/salada-de-frutas.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe-da-tarde",
+          "nome": "Café da tarde",
+          "horario": "15h30",
+          "icone": "lanche",
+          "itens": [
+            {
+              "id": 23,
+              "titulo": "Bolo de fubá",
+              "descricao": "Bolo caseiro de milho, macio e cheiroso.",
+              "foto": "/images/bolo-de-fuba.jpg"
+            },
+            {
+              "id": 24,
+              "titulo": "Suco de graviola",
+              "descricao": "Cremoso e refrescante, servido gelado.",
+              "foto": "/images/suco-de-graviola.jpg"
+            }
+          ]
+        },
+        {
+          "id": "jantar",
+          "nome": "Jantar",
+          "horario": "19h00",
+          "icone": "jantar",
+          "itens": [
+            {
+              "id": 25,
+              "titulo": "Caldo verde",
+              "descricao": "Creme de batata com couve e calabresa.",
+              "foto": "/images/caldo-verde.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "quinta",
+      "nome": "Quinta",
+      "refeicoes": [
+        {
+          "id": "cafe-da-manha",
+          "nome": "Café da manhã",
+          "horario": "7h00",
+          "icone": "cafe",
+          "itens": [
+            {
+              "id": 26,
+              "titulo": "Chocolate quente",
+              "descricao": "Cremoso, para começar bem o dia.",
+              "foto": "/images/chocolate-quente.jpg"
+            },
+            {
+              "id": 27,
+              "titulo": "Misto quente",
+              "descricao": "Pão na chapa com presunto e queijo.",
+              "foto": "/images/misto-quente.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almoco",
+          "nome": "Almoço",
+          "horario": "12h30",
+          "icone": "almoco",
+          "itens": [
+            {
+              "id": 28,
+              "titulo": "Lasanha",
+              "descricao": "Camadas de massa, molho, carne e queijo gratinado.",
+              "foto": "/images/lasanha.jpg"
+            },
+            {
+              "id": 29,
+              "titulo": "Arroz doce",
+              "descricao": "Com leite condensado e canela por cima.",
+              "foto": "/images/arroz-doce.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe-da-tarde",
+          "nome": "Café da tarde",
+          "horario": "15h30",
+          "icone": "lanche",
+          "itens": [
+            {
+              "id": 30,
+              "titulo": "Pão de queijo",
+              "descricao": "Crocante por fora e macio por dentro.",
+              "foto": "/images/pao-de-queijo.jpg"
+            },
+            {
+              "id": 31,
+              "titulo": "Suco de maracujá",
+              "descricao": "Feito com a fruta, servido bem gelado.",
+              "foto": "/images/suco-de-maracuja.jpg"
+            }
+          ]
+        },
+        {
+          "id": "jantar",
+          "nome": "Jantar",
+          "horario": "19h00",
+          "icone": "jantar",
+          "itens": [
+            {
+              "id": 32,
+              "titulo": "Omelete",
+              "descricao": "Ovos batidos com queijo e ervas.",
+              "foto": "/images/omelete.jpg"
+            },
+            {
+              "id": 33,
+              "titulo": "Sopa de legumes",
+              "descricao": "Caldo leve com legumes da estação.",
+              "foto": "/images/sopa-de-legumes.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexta",
+      "nome": "Sexta",
+      "refeicoes": [
+        {
+          "id": "cafe-da-manha",
+          "nome": "Café da manhã",
+          "horario": "7h00",
+          "icone": "cafe",
+          "itens": [
+            {
+              "id": 34,
+              "titulo": "Café com leite",
+              "descricao": "Café passado na hora com leite quentinho.",
+              "foto": "/images/cafe-com-leite.jpg"
+            },
+            {
+              "id": 35,
+              "titulo": "Pão na chapa",
+              "descricao": "Pão francês tostado com manteiga.",
+              "foto": "/images/pao-na-chapa.jpg"
+            },
+            {
+              "id": 36,
+              "titulo": "Salada de frutas",
+              "descricao": "Frutas da estação picadinhas.",
+              "foto": "/images/salada-de-frutas.jpg"
+            }
+          ]
+        },
+        {
+          "id": "almoco",
+          "nome": "Almoço",
+          "horario": "12h30",
+          "icone": "almoco",
+          "itens": [
+            {
+              "id": 37,
+              "titulo": "Feijão tropeiro",
+              "descricao": "Feijão com farinha, ovo, couve e linguiça.",
+              "foto": "/images/feijao-tropeiro.jpg"
+            },
+            {
+              "id": 38,
+              "titulo": "Escondidinho",
+              "descricao": "Purê de mandioca gratinado com carne seca.",
+              "foto": "/images/escondidinho.jpg"
+            },
+            {
+              "id": 39,
+              "titulo": "Pudim de leite",
+              "descricao": "Sobremesa com calda de caramelo.",
+              "foto": "/images/pudim.jpg"
+            }
+          ]
+        },
+        {
+          "id": "cafe-da-tarde",
+          "nome": "Café da tarde",
+          "horario": "15h30",
+          "icone": "lanche",
+          "itens": [
+            {
+              "id": 40,
+              "titulo": "Bolo de cenoura",
+              "descricao": "Fofinho, com cobertura de chocolate.",
+              "foto": "/images/bolo-de-cenoura.jpg"
+            },
+            {
+              "id": 41,
+              "titulo": "Pipoca",
+              "descricao": "Estourada na hora, com sal na medida.",
+              "foto": "/images/pipoca.jpg"
+            }
+          ]
+        },
+        {
+          "id": "jantar",
+          "nome": "Jantar",
+          "horario": "19h00",
+          "icone": "jantar",
+          "itens": [
+            {
+              "id": 42,
+              "titulo": "Mexido mineiro",
+              "descricao": "Arroz, feijão, ovo e couve, tudo misturado.",
+              "foto": "/images/mexido-mineiro.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
