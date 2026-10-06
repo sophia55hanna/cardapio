@@ -64,7 +64,9 @@
               "titulo": "Arroz e feijão",
               "descricao": "Arroz soltinho, feijão caseiro e farofa.",
               "foto": "/images/arroz-feijao-farofa.jpg",
-              "contem": [],
+              "contem": [
+                "lactose"
+              ],
               "calorias": 350
             },
             {
@@ -218,7 +220,7 @@
             {
               "id": 106,
               "titulo": "Pão sem glúten na chapa",
-              "descricao": "Pão de farinha de arroz tostado com azeite.",
+              "descricao": "Pão de farinha de arroz, sem ovos, tostado com azeite.",
               "contem": [],
               "calorias": 220
             }
@@ -309,6 +311,7 @@
               "foto": "/images/macarrao-bolonhesa.jpg",
               "contem": [
                 "gluten",
+                "ovo",
                 "carne"
               ],
               "calorias": 480
@@ -697,7 +700,7 @@
             {
               "id": 120,
               "titulo": "Pão sem glúten com café vegetal",
-              "descricao": "Pão de farinha de arroz tostado com azeite e café passado com bebida vegetal de arroz.",
+              "descricao": "Pão de farinha de arroz, sem ovos, tostado com azeite e café passado com bebida vegetal de arroz.",
               "contem": [],
               "calorias": 260
             }
