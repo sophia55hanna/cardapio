@@ -18,6 +18,8 @@
   --destaque-suave: #f3e5df;
   --destaque-texto: #ffffff;
   --secundaria: #6d351a;     /* Rútilo */
+  --seguro: #3f6b2a;         /* Verde dos selos "sem glúten", "vegetariano"... */
+  --seguro-suave: #e6efdc;
 }
 
 /* Cores do tema escuro (versões mais claras da paleta, para dar contraste) */
@@ -31,6 +33,8 @@
   --destaque-suave: #3b211c;
   --destaque-texto: #1a1210;
   --secundaria: #d9a07a;
+  --seguro: #a6c98a;
+  --seguro-suave: #1f2a17;
 }
 
 @theme inline {
@@ -46,6 +50,8 @@
   --color-destaque-suave: var(--destaque-suave);
   --color-destaque-texto: var(--destaque-texto);
   --color-secundaria: var(--secundaria);
+  --color-seguro: var(--seguro);
+  --color-seguro-suave: var(--seguro-suave);
 }
 
 body {

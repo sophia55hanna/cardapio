@@ -26,6 +26,7 @@ export default function Header() {
                 <div className="flex items-center sm:gap-2">
                     <MenuLink to="/">Início</MenuLink>
                     <MenuLink to="/cardapio">Cardápio</MenuLink>
+                    <MenuLink to="/cardapio-alternativo">Alternativo</MenuLink>
                     <span className="w-px h-6 bg-borda mx-1 sm:mx-2" />
                     <ThemeToggle />
                 </div>
